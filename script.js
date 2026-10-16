@@ -24,7 +24,7 @@ document.querySelectorAll(".variety-btn").forEach(button => {
     button.classList.add("active");
     const type = button.dataset.oil;
     const names = type === "groundnut" ? "Groundnut Oil" : "Soybean Oil";
-    const sizes = ["1 kg","2 kg","5 kg","15 kg"];
+    const sizes = ["1 L","2 L","5 L","15 L"];
     oilPrices.innerHTML = sizes.map((size, i) =>
       `<div><span>${size}</span><strong>${prices[type][i]}</strong></div>`
     ).join("");
