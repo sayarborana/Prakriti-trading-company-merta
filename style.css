@@ -149,3 +149,17 @@ footer{background:#092b1b;color:#dce9e1;padding:35px 0}.footer-inner{display:gri
     overflow-wrap:anywhere;
   }
 }
+@media (max-width: 600px) {
+
+  .hero-actions .btn {
+    width: auto;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .inquiry-form .submit-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+}
