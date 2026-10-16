@@ -118,3 +118,34 @@ footer{background:#092b1b;color:#dce9e1;padding:35px 0}.footer-inner{display:gri
   .mini-points{gap:7px}
   .mini-points span{font-size:.75rem}
 }
+@media(max-width:760px){
+  .contact .container{
+    width:calc(100% - 28px);
+    max-width:620px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .contact-grid{
+    width:100%;
+    grid-template-columns:minmax(0,1fr);
+    gap:20px;
+  }
+
+  .contact-info,
+  .inquiry-form{
+    width:100%;
+    min-width:0;
+    max-width:100%;
+    box-sizing:border-box;
+  }
+
+  .info-item{
+    min-width:0;
+    overflow-wrap:anywhere;
+  }
+
+  .info-item strong{
+    overflow-wrap:anywhere;
+  }
+}
